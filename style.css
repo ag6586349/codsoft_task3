@@ -1,0 +1,28 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+}
+.clock{
+    color:white;
+    background: rgb(72, 75, 53);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 340px;
+    padding: 12px 8px;
+    border: 4px solid rgb(120, 74, 74);
+    border-radius: 5px;
+}
+.clock:hover{
+    background: palevioletred ;
+    box-shadow: 0 0 30px palevioletred;
+}
+.time{
+    text-align: center;
+    letter-spacing: 2.5px;;
+}
